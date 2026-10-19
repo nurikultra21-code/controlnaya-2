@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Книга рецептов</h1>
+
+        <form id="recipeForm" class="recipe-form">
+            <input type="text" id="recipeInput" placeholder="Введите название рецепта...">
+            <button type="submit">Добавить</button>
+            <p id="errorMessage" class="error-hidden">Пожалуйста заполните поле!</p>
+        </form>
+
+        <div id="recipesContainer" class="recipes-grid"></div>
+    </div>
+
+    <hr class="section-divider">
+
+<h1>Каталог товаров</h1>
+
+<form id="productForm" class="product-form">
+    <input type="text" id="productInput" placeholder="Введите название товара...">
+    <button type="submit">Добавить</button>
+    <p id="productError" class="error-hidden">Пожалуйста, заполните поле!</p>
+</form>
+
+<div id="productsContainer" class="products-grid"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
